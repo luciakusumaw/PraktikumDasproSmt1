@@ -6,7 +6,13 @@ public class ifPrintKRS13 {
         System.out.println("--- Print KRS SIAKAD ---");
         System.out.print("Has UKT been paid? (True/False): ");
         boolean uktPaid = sc.nextBoolean();
+        //ternary version
+        String message = uktPaid
+        ? "UKT Payment has been verified\nKRS now can be printed and you can ask the DPA signature"
+        : "You cannot print KRS\nPlease complete the UKT payment first";
+        System.out.println(message);
 
+        //original version
         if (uktPaid) {
             System.out.println("UKT payment verified");
             System.out.println("Print your KRS and ask the DPA signature");
