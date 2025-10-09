@@ -24,6 +24,5 @@ public class ifElsePrintKRS13 {
         } else if (semester == 8) {
             System.out.println("KRS semester 8 is displayed");
         }
-        sc.closse();
     }   
 }
