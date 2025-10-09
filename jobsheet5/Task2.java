@@ -6,7 +6,7 @@ public class Task2 {
 
         int number;
 
-        System.out.println("Input Te Number: ");
+        System.out.println("Input The Number: ");
         number = sc.nextInt();
         if (number % 2 == 0) {
             System.out.println("Even");
