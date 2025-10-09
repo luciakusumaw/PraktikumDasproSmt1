@@ -10,6 +10,8 @@ public class ifPrintKRS13 {
         if (uktPaid) {
             System.out.println("UKT payment verified");
             System.out.println("Print your KRS and ask the DPA signature");
+        } else {
+            System.out.println("Registration rejected. Please pay UKT first.");
         }
     }
 }
