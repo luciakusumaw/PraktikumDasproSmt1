@@ -38,5 +38,3 @@ public class nestedUjianSkripsi13 {
         sc.close();
     }
 }
-
-    
